@@ -1,0 +1,64 @@
+.main
+{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+   border: 1px solid gray;
+   border-radius: 20px;
+    width: 700px;
+    height: auto;
+    background-color: white;
+}
+.btn-close
+{
+    width: auto;
+    padding-left: 50px;
+    padding-top: 20px;
+    border:none;
+    background-color: white;
+    border-radius: 20px;
+}
+.btn-close:focus
+{
+  outline: 0px;
+  box-shadow: none;
+}
+.icon{
+    padding-left: 40%;
+    padding-top: 10px;
+}
+.icon-div
+{
+    display: flex;
+}
+.head
+{
+    margin-top: 20px;
+}
+th
+{
+    padding-left: 10%;
+    size: 50px;
+}
+table{
+    border-collapse: separate;
+    border-spacing:0 15px;
+}
+.div-form
+{
+    padding-left: 10%;  
+    width: 90%;
+    
+}
+input[type=text]
+{
+    margin-bottom: 30px;
+    height: 80px;
+    font-size: 20px;
+}
+input[type=text]:focus{
+    border:1px solid blue;
+    box-shadow: none;
+    
+}
